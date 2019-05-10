@@ -1,6 +1,6 @@
 # messagestable
-|Column||Type||Option|
-|-------------------|
+|Column|Type|Options|
+|------|----|-------|
 |body||text|
 |image||string|
 |group||references|null: false, foreign_key: true|
@@ -11,8 +11,8 @@
 - belongs_to :user
 
 # users table
-|Column||Type||Option|
-|-------------------|
+|Column|Type|Options|
+|------|----|-------|
 |nickname||string||null: false, index: true|
 
 
@@ -22,8 +22,8 @@
 - has_many:members
 
 # grouptable
-|Column||Type||Option|
-|-------------------|
+|Column|Type|Options|
+|------|----|-------|
 |name||string||null: false|
 
 ## Association
@@ -32,8 +32,8 @@
 - has_many:members
 
 # memberstable
-|Column||Type||Option|
-|-------------------|
+|Column|Type|Options|
+|------|----|-------|
 |group||references||null: false, foreign_key: true|
 |user||references||null: false, foreign_key: true|
 
