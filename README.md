@@ -21,7 +21,7 @@
 - has_many:messages
 - has_many:members
 
-# grouptable
+# groupstable
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
